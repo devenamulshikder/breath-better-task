@@ -44,3 +44,44 @@ nav {
   text-decoration: none;
   color: #070707;
 }
+/* banner section */
+.banner {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  margin-top: 16px;
+  position: relative;
+}
+.banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.avatars {
+  display: flex;
+  align-items: center;
+  padding-top: 135px;
+}
+.customer-span {
+  background: #ffffff;
+  color: #242a33;
+  padding: 4px 8px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.banner-title {
+  font-size: 64px;
+  margin: 12px 0;
+}
+.banner-subtitle {
+  font-size: 16px;
+  margin-bottom: 40px;
+  width: 474px;
+}
